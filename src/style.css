@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    height: 5rem;
+}
+
+nav img {
+    height: 50px;
+    width: 70px;
+}
+
+.thebox {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: left;
+    padding: 5px;
+}
+
+.thebox p {
+    color: #1645e0;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5px;
+}
+
+.links {
+    display: none;
+    visibility: hidden;
+    height: 78.8vh;
+    top: 10%;
+    background-color: #1645e0;
+    padding-left: 2rem;
+    padding-top: 4rem;
+}
+
+.links li {
+    padding-bottom: 20px;
+}
+
+.clicks {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.clicks:hover {
+    color: #b5c4f5;
+}
+
+.colored {
+    color: chocolate;
+    padding: 0;
+}
+
+.colored:hover {
+    color: rgb(255, 130, 42);
+}
+
+.fa-bars {
+    color: #1645e0;
+    top: 3%;
+    left: 85%;
+    position: absolute;
+}
+
+.fa-times-circle {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    color: white; 
+    top: 16.5%;
+    left: 85%;
+}
