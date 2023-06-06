@@ -1,13 +1,26 @@
+/* generic */
 *{
     margin: 0%;
     padding: 0%;
     border: none;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
+}
+
+
+/* mobile version */
+
+    /* mobile version nav  */
+section {
+    height: 55vh;
 }
 
 nav{
-    height: 5rem;
+    height: 3.7rem;
+    position: static;
+    width: 100%;
+    padding-top: 5px;
 }
 
 nav img {
@@ -20,7 +33,7 @@ nav img {
     align-items: center;
     background-color: white;
     justify-content: left;
-    padding: 5px;
+    padding-left: 5px;
 }
 
 .thebox p {
@@ -78,4 +91,70 @@ nav img {
     color: white; 
     top: 16.5%;
     left: 85%;
+}
+
+.hero{
+    background-image: url(./image/buildings.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+
+.hero-text {
+    font-size: xx-large;
+    width: 70%;
+    position: absolute;
+    top: 35%;
+}
+
+.featured-pj {
+    padding-top: .4rem;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    height: 7.7rem;
+    background-color: #1645e0;
+}
+
+.pj-text,
+.pj-header {
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.pj-header {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.pj-text {
+    font-weight: 100;
+    font-size: 17px;
+    padding-top: .3rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.direction {
+    margin: 1.3rem 0;
+    justify-items: center;
+    display: flex;
+    align-content: center;
+}
+
+.btn {
+    padding: 10px;
+    background-color: black;
+    color: rgb(216, 216, 216);
+    width: 50%;
+}
+
+.left {
+    margin-right: 0.5px;
+}
+
+.right {
+    margin-left: 0.5px;
 }
