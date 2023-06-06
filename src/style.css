@@ -1,22 +1,25 @@
 /* generic */
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
     margin: 0%;
     padding: 0%;
     border: none;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 
 /* mobile version */
 
-    /* mobile version nav  */
+/* mobile version nav  */
 section {
     height: 55vh;
 }
 
-nav{
+nav {
     height: 3.7rem;
     position: static;
     width: 100%;
@@ -40,7 +43,6 @@ nav img {
     color: #1645e0;
     font-size: x-large;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 5px;
 }
 
@@ -88,12 +90,14 @@ nav img {
     display: none;
     visibility: hidden;
     position: absolute;
-    color: white; 
+    color: white;
     top: 16.5%;
     left: 85%;
 }
 
-.hero{
+/* mobile hero section */
+
+.hero {
     background-image: url(./image/buildings.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,7 +118,7 @@ nav img {
     position: absolute;
     top: 80%;
     height: 7.7rem;
-    background-color: #1645e0;
+    background-color: #3559C7;
 }
 
 .pj-text,
@@ -157,4 +161,46 @@ nav img {
 
 .right {
     margin-left: 0.5px;
+}
+
+/* mobile about us section  */
+
+.container {
+    margin-top: 50%;
+}
+
+.my-img {
+    height: 20rem;
+    width: 23.45rem;
+}
+
+.about-card {
+    background-color: #2947A9;
+    width: 70%;
+    padding-bottom: 12px;
+}
+
+.about-header,
+.about-text {
+    color: white;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.about-header {
+    font-size: 22px;
+}
+
+.about-text {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.more {
+    padding: 7px;
+    border-radius: 2px;
+    margin-left: 17px;
+    margin-top: 30px;
+    color: #2947A9;
+    font-weight: 600;
 }
