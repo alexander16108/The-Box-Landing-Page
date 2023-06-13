@@ -15,10 +15,6 @@
 /* mobile version */
 
 /* mobile version nav  */
-section {
-    height: 55vh;
-}
-
 nav {
     height: 3.7rem;
     position: static;
@@ -101,7 +97,7 @@ nav img {
     background-image: url(./image/buildings.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
 }
 
 
@@ -116,8 +112,8 @@ nav img {
     padding-top: .4rem;
     width: 100%;
     position: absolute;
-    top: 80%;
-    height: 7.7rem;
+    top: 88.5%;
+    height: 7.8rem;
     background-color: #3559C7;
 }
 
@@ -164,6 +160,9 @@ nav img {
 }
 
 /* mobile about us section  */
+.about-us {
+    height: 130vh;
+}
 
 .container {
     margin-top: 50%;
@@ -171,7 +170,7 @@ nav img {
 
 .my-img {
     height: 20rem;
-    width: 23.45rem;
+    width: 23rem;
 }
 
 .about-card {
@@ -203,4 +202,64 @@ nav img {
     margin-top: 30px;
     color: #2947A9;
     font-weight: 600;
+}
+
+/* services mobile version */
+
+.service {
+    background-color: #F6F8F7;
+    margin-top: 10px;
+    padding-top: 20px;
+    height: auto;
+}
+
+.service h1 {
+    text-align: center;
+}
+
+.services-container {
+    padding: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.services-items {
+    height: 10rem;
+    width: 10rem;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.services-items:nth-child(odd) {
+    background-color:#ffff;
+}
+
+.services-items:nth-child(odd) .fa,
+.services-items:nth-child(odd) p {
+    color: #1645e0;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.fa-city {
+    background-color: #1645e0;
+}
+
+.line {
+    background-color: #E0E3EB;
+    height: 1.5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.services-items:nth-child(even) {
+    background-color: #2947A9;
+}
+
+.services-items:nth-child(even) .fa,
+.services-items:nth-child(even) p {
+    color: #ffff;
+    font-weight: 400;
+    padding: 10px;
 }
